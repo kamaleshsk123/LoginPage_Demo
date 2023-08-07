@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&family=Calistoga&family=Kavoon&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -37,7 +37,7 @@ header{
 }
 
 .logo :hover{
-    color: #94AF9F;
+    color: #FFF6DC;
 }
 .navigation a{
     position: relative;
@@ -46,6 +46,10 @@ header{
     text-decoration: none;
     font-weight: 500;
     margin-left: 50px;
+}
+
+.navigation a:hover{
+    color: #435B66;
 }
 
 .navigation a::after{
@@ -153,6 +157,7 @@ header{
 
 .form-box h2{
     font-size: 2em;
+    font-family: 'Bree Serif', serif;
     color: #fff;
     text-align: center;
 }
@@ -188,8 +193,8 @@ header{
     background: transparent;
     border: none;
     outline: none;
-    font-size: 1em;
-    color: #AAC8A7;
+    font-size: 1.3em;
+    color: #fff;
     font-weight: 600;
     padding: 0 35px 0 5px;
 }
@@ -278,6 +283,7 @@ header{
 h1 {
 	font-weight: 300;
 	font-size: 60px;
+    font-family: 'Calistoga', cursive;
 	line-height: 1.2;
 	margin-bottom: 15px;
 }
